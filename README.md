@@ -56,3 +56,7 @@ To schedule this script to run automatically every week (e.g., every Sunday at 3
 3. Save and close the editor. Each run will generate its own isolated log file in `/var/log/proxmox-maintenance/`.
 
 ---
+
+## 🛡️ Requirements
+* Proxmox VE 8.x or newer.
+* `qemu-guest-agent` installed and running inside target VMs for guest command execution and space metrics.
